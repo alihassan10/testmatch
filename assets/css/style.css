@@ -25,3 +25,43 @@
 .tools-top{
     text-align: center;
 }
+.intro-img img{
+    width: 100%;
+}
+.services-top{
+    text-align: center;
+}
+.feature-top{
+    text-align: center;
+}
+.feature-img img{
+    width: 100%;
+}
+.video-img img{
+   width: 100%;
+}
+.video-top{
+    text-align: center;
+}
+.team-img img{
+    width: 100%;
+}
+.team-top{
+    text-align: center;
+}
+.sub-top{
+    text-align: center;
+}
+.footer-img img{
+    width: 100%;
+}
+#sub{
+    border: 2px solid red;
+}
+.eml{
+    font-size: 30px;
+    text-shadow: 5px 25px 0px lightblue;
+}
+.sub-form{
+    width: 100%;
+}
