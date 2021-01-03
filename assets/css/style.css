@@ -30,9 +30,11 @@
 }
 .services-top{
     text-align: center;
+    margin-bottom: 50px;
 }
 .feature-top{
     text-align: center;
+    margin-bottom: 50px;
 }
 .feature-img img{
     width: 100%;
@@ -42,26 +44,80 @@
 }
 .video-top{
     text-align: center;
+    margin-bottom: 50px;
 }
 .team-img img{
     width: 100%;
 }
 .team-top{
     text-align: center;
+    margin-bottom: 50px;
 }
 .sub-top{
     text-align: center;
+    margin-bottom: 50px;
 }
 .footer-img img{
-    width: 100%;
+    width: 30%;
 }
 #sub{
     border: 2px solid red;
 }
 .eml{
     font-size: 30px;
-    text-shadow: 5px 25px 0px lightblue;
+    
 }
-.sub-form{
-    width: 100%;
+.sub-main{
+    padding-right: 25px;
+}
+.intro-top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#intro{
+    margin-bottom: 150px;
+}
+.html-text h1{
+text-align: center;
+}
+.css-text h1{
+    text-align: center;
+}
+.java-text h1{
+    text-align: center;
+}
+.boot-text h1{
+    text-align: center;
+}
+.team-text{
+text-align: center;
+}
+#features{
+    margin-bottom: 150px;
+}
+/*
+.html-text{
+    margin-bottom: 150px;
+}*/
+#services{
+    margin-bottom: 150px;
+}
+#video{
+    margin-bottom: 150px; 
+}
+.team-main{
+    
+    box-shadow: 0 0px 7px 0px rgb(138, 64, 64);
+}
+#team{
+    margin-bottom: 150px;
+}
+footer{
+    margin-top: 150px;
+}
+footer li{
+    list-style: none;
+}
+header{
+    margin-bottom: 50px;
 }
