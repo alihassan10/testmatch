@@ -75,7 +75,7 @@
     margin-bottom: 50px;
 }
 #intro{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .html-text h1{
 text-align: center;
@@ -93,27 +93,27 @@ text-align: center;
 text-align: center;
 }
 #features{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 /*
 .html-text{
     margin-bottom: 150px;
 }*/
 #services{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 #video{
-    margin-bottom: 150px; 
+    margin-bottom: 100px; 
 }
 .team-main{
     
     box-shadow: 0 0px 7px 0px rgb(138, 64, 64);
 }
 #team{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 footer{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 footer li{
     list-style: none;
