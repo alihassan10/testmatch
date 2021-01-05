@@ -1,3 +1,9 @@
+ul{
+    padding: 0;
+}
+section{
+    padding: 100px 0;
+}
 .first img{
     width: 100%;
 }
@@ -39,6 +45,8 @@
 }
 .feature-img img{
     width: 100%;
+    margin-bottom: 50px;
+    
 }
 .video-img img{
    width: 100%;
@@ -62,6 +70,19 @@
 .footer-img img{
     width: 30%;
 }
+.footer-img a{
+    padding-right:10px;
+    
+}
+
+.video-icon a{
+    font-size: 50px;
+    position: absolute;
+    right: 265px;
+    top: 160px;
+}
+    
+}
 .footer-main{
     margin-bottom: 20px
 }
@@ -70,7 +91,8 @@
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
-   margin-bottom: 100px;
+   
+   padding: 80px 0;
 }
 .eml{
     font-size: 30px;
@@ -84,7 +106,7 @@
     margin-bottom: 50px;
 }
 #intro{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .html-text h1{
 text-align: center;
@@ -102,7 +124,7 @@ text-align: center;
 text-align: center;
 }
 #features{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     list-style: none;
 }
 .feature-text li{
@@ -113,10 +135,10 @@ text-align: center;
     margin-bottom: 150px;
 }*/
 #services{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 #video{
-    margin-bottom: 100px; 
+    margin-bottom: 50px; 
 }
 .team-main{
     
@@ -131,20 +153,31 @@ footer{
 }
 footer li{
     list-style: none;
-    position: relative;
-    left: -40px;
+    
 }
 header{
-    margin-bottom: 50px;
+    
 }
-.sub-button button{
- width: 25%;
 
-}
-.sub-form{
-    width: 50%;
+   
 
 }
 .icon a{
     font-size: 25px;
+}
+.sub-form button{
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+
+@media only screen and (max-width:767px){
+.video-img{
+    margin-bottom: 50px;
+}    
+.video-img a{
+    font-size: 20px;
+}
+.footer-main{
+    text-align: center;
 }
