@@ -62,11 +62,15 @@
 .footer-img img{
     width: 30%;
 }
+.footer-main{
+    margin-bottom: 20px
+}
 #sub{
    background-image: url(../images/download\ \(4\).jpg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
+   margin-bottom: 100px;
 }
 .eml{
     font-size: 30px;
@@ -127,17 +131,20 @@ footer{
 }
 footer li{
     list-style: none;
+    position: relative;
+    left: -40px;
 }
 header{
     margin-bottom: 50px;
 }
 .sub-button button{
- width: 15%;
+ width: 25%;
 
 }
 .sub-form{
     width: 50%;
+
 }
 .icon a{
-    font-size: 35px;
+    font-size: 25px;
 }
