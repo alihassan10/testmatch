@@ -27,6 +27,7 @@
 }
 .intro-img img{
     width: 100%;
+    margin-bottom: 50px;
 }
 .services-top{
     text-align: center;
@@ -56,12 +57,16 @@
 .sub-top{
     text-align: center;
     margin-bottom: 50px;
+    color: lightblue;
 }
 .footer-img img{
     width: 30%;
 }
 #sub{
-    border: 2px solid red;
+   background-image: url(../images/download\ \(4\).jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
 }
 .eml{
     font-size: 30px;
@@ -94,6 +99,10 @@ text-align: center;
 }
 #features{
     margin-bottom: 100px;
+    list-style: none;
+}
+.feature-text li{
+    list-style: none;
 }
 /*
 .html-text{
@@ -107,10 +116,11 @@ text-align: center;
 }
 .team-main{
     
-    box-shadow: 0 0px 7px 0px rgb(138, 64, 64);
+    box-shadow: 0 0px 7px 0px #17241f;
+    margin-bottom: 20px;
 }
 #team{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 footer{
     margin-top: 100px;
@@ -120,4 +130,14 @@ footer li{
 }
 header{
     margin-bottom: 50px;
+}
+.sub-button button{
+ width: 15%;
+
+}
+.sub-form{
+    width: 50%;
+}
+.icon a{
+    font-size: 35px;
 }
