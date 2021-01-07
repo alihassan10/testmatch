@@ -1,7 +1,18 @@
 
 ul{
     padding: 0;
+    margin: 0;
 }
+p{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+
+}
+
 /*
 .first img{
     width: 100%;
@@ -61,6 +72,9 @@ section{
     width: 100%;
 }
 
+#services{
+    padding-bottom: 70px;
+}
 .services-top{
     text-align: center;
     margin-bottom: 30px;
@@ -69,6 +83,7 @@ section{
     text-align: center;
     margin-bottom: 50px;
 }
+
 .html-text h1{
     text-align: center;
     }
@@ -94,8 +109,6 @@ section{
 }
 .feature-img img{
     width: 100%;
-    margin-bottom: 50px;
-    
 }
 
 .video-top{
@@ -114,6 +127,9 @@ section{
     transform: translate(-50%, -50%);
 }
 
+#team{
+    padding-bottom: 70px;
+}
 .team-top{
     text-align: center;
     margin-bottom: 50px;
@@ -127,7 +143,7 @@ section{
 .team-main{
         
     box-shadow: 0 0px 7px 0px #17241f;
-     margin-bottom: 20px;
+     margin-bottom: 30px;
 }
 
 .sub-top{
@@ -170,8 +186,9 @@ footer{
 footer li{
     list-style: none;   
 }
-.footer-main a{
-    font-size: 25px;
+.footer-img a{
+    font-size: 17px;
+    color: #9e295a;
 }
 
 @media only screen and (max-width:767px){
@@ -182,9 +199,15 @@ footer li{
 .intro-img{
     padding-bottom: 30px;
 }
+.feature-img{
+    margin-bottom: 30px;
+}
 }
 @media only screen and (max-width:991px){
      .video-img{
          margin-bottom: 50px;
+     }
+     .video-img a{
+         top: 42%;
      }
 }
