@@ -1,7 +1,8 @@
+
 ul{
     padding: 0;
 }
-
+/*
 .first img{
     width: 100%;
 }
@@ -28,14 +29,64 @@ ul{
 }
 .tools-top{
     text-align: center;
+} */
+
+
+
+section{
+    padding: 100px 0;
+}
+
+.my-navbar{
+    background-color: #BE9063;
+}
+.navbar-nav li a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-nav a:hover{
+    color: black;
+}
+
+#intro{
+    background-color: #A4978E;
+}
+.intro-top{
+    text-align: center;
+    margin-bottom: 50px;
 }
 .intro-img img{
     width: 100%;
-    margin-bottom: 50px;
 }
+
 .services-top{
     text-align: center;
+    margin-bottom: 30px;
+}
+.services-head{
+    text-align: center;
     margin-bottom: 50px;
+}
+.html-text h1{
+    text-align: center;
+    }
+    .css-text h1{
+        text-align: center;
+    }
+    .java-text h1{
+        text-align: center;
+    }
+    .boot-text h1{
+        text-align: center;
+    }
+
+#features{
+    list-style: none;
+}
+.feature-text li{
+    list-style: none;
 }
 .feature-top{
     text-align: center;
@@ -46,123 +97,53 @@ ul{
     margin-bottom: 50px;
     
 }
+
+.video-top{
+    text-align: center;
+    margin-bottom: 50px;
+}
 .video-img img{
    width: 100%;
 }
-.video-top{
+.video-img a{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.team-top{
     text-align: center;
     margin-bottom: 50px;
 }
 .team-img img{
     width: 100%;
 }
-.team-top{
+.team-text{
     text-align: center;
-    margin-bottom: 50px;
+    }
+.team-main{
+        
+    box-shadow: 0 0px 7px 0px #17241f;
+     margin-bottom: 20px;
 }
+
 .sub-top{
     text-align: center;
     margin-bottom: 50px;
     color: lightblue;
 }
-.footer-img img{
-    width: 30%;
-}
-.footer-img a{
-    padding-right:10px;
-    
-}
-
-.video-icon a{
-    color: white;
-    font-size: 50px;
-    position: absolute;
-    right: 265px;
-    top: 160px;
-}
-    
-}
-.footer-main{
-    margin-bottom: 20px
-}
 #sub{
-   background-image: url(../images/download\ \(4\).jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   margin-bottom: 100px;
-   padding: 80px 0;
-}
-.eml{
-    font-size: 30px;
-    
-}
-.sub-main{
+    background-image: url(../images/download\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0;
+ }
+ .sub-main{
     padding-right: 25px;
-}
-.intro-top{
-    text-align: center;
-    margin-bottom: 50px;
-}
-#intro{
-    margin-bottom: 50px;
-}
-.html-text h1{
-text-align: center;
-}
-.css-text h1{
-    text-align: center;
-}
-.java-text h1{
-    text-align: center;
-}
-.boot-text h1{
-    text-align: center;
-}
-.team-text{
-text-align: center;
-}
-#features{
-    margin-bottom: 50px;
-    list-style: none;
-}
-.feature-text li{
-    list-style: none;
-}
-/*
-.html-text{
-    margin-bottom: 150px;
-}*/
-#services{
-    margin-bottom: 50px;
-}
-#video{
-    margin-bottom: 50px; 
-}
-.team-main{
-    
-    box-shadow: 0 0px 7px 0px #17241f;
-    margin-bottom: 20px;
-}
-#team{
-    margin-bottom: 80px;
-}
-footer{
-    margin-top: 100px;
-}
-footer li{
-    list-style: none;
-    
-}
-header{
-    
-}
-
-   
-
-}
-.icon a{
-    font-size: 25px;
 }
 .sub-form button{
     position: absolute;
@@ -170,13 +151,40 @@ header{
     right: 40px;
 }
 
-@media only screen and (max-width:767px){
-.video-img{
-    margin-bottom: 50px;
-}    
-.video-img a{
-    font-size: 20px;
+footer{
+    background-color: #A4978E;
+    padding-top: 50px;
+    padding-bottom:30px ;
 }
 .footer-main{
+    margin-bottom: 20px
+}
+.footer-img img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.footer-img a{
+    padding-right:10px;   
+}
+
+footer li{
+    list-style: none;   
+}
+.footer-main a{
+    font-size: 25px;
+}
+
+@media only screen and (max-width:767px){
+    
+.footer-main{
     text-align: center;
+}
+.intro-img{
+    padding-bottom: 30px;
+}
+}
+@media only screen and (max-width:991px){
+     .video-img{
+         margin-bottom: 50px;
+     }
 }
