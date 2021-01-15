@@ -152,41 +152,52 @@ section{
 }
 
 .por1-main{
-    border: 2px solid #b6b6b6;
+    border: 2px solid #e4e3e3;
+    padding: 10px 10px;
 }
 .por2-main{
-    border: 2px solid #b6b6b6;
+    border: 2px solid #e4e3e3;
+    padding: 10px 10px;
 }
 .por3-main{
-    border: 2px solid #b6b6b6;
+    border: 2px solid #e4e3e3;
+    padding: 10px 10px;
 }
-.por1-main h2{
+.por1-main h3{
     margin-bottom: 25px;
 }
-.por2-main h2{
+.por2-main h3{
     margin-bottom: 25px;
 }
-.por3-main h2{
+.por3-main h3{
     margin-bottom: 25px;
 }
 .por1-img img{
     margin-bottom: 25px;
     width: 100%;
     height: 100%;
-    padding: 10px 10px;
+    
 }
 .por2-img img{
     margin-bottom: 25px;
     width: 100%;
-    height: 100%;
-    padding: 10px 10px;
+    height: 209px;
 }
 .por3-img img{
     margin-bottom: 25px;
     width: 100%;
     height: 100%;
-    padding: 10px 10px;
 }
+.por1-main p{
+    margin-bottom: 25px;
+}
+.por2-main p{
+    margin-bottom: 25px;
+}
+.por3-main p{
+    margin-bottom: 25px;
+}
+
 /*
 .imge{
     width: 100%;
