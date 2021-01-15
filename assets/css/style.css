@@ -177,14 +177,14 @@ footer{
 }
 .footer-img img{
     width: 30%;
-    margin-bottom: 20px;
+    
 }
 .footer-img a{
     padding-right:10px;   
 }
 
 footer li{
-    list-style: none;   
+    list-style: none;  
 }
 .footer-img a{
     font-size: 17px;
