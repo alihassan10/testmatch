@@ -12,9 +12,9 @@ p{
 h1, h2, h3, h4, h5, h6{
     padding: 0;
     margin: 0;
-
 }
 
+/* navbar da container change kro navbar brand dy utty laao k mtlb */
 /*
 .first img{
     width: 100%;
@@ -60,12 +60,11 @@ section{
     color: white !important;
 }
 .navbar-brand{
-    color: white;
+    color: white !important;
 }
 .navbar-nav a:hover{
     color: black;
 }
-
 #intro{
     background-color: #A4978E;
 }
@@ -132,80 +131,36 @@ section{
     transform: translate(-50%, -50%);
 }
 
-#team{
+#our-team{
     padding-bottom: 70px;
 }
+.team{
+    border: 1px solid #cdcdcd;
+    margin-bottom: 30px;
+}
 .team-top{
-    text-align: center;
     margin-bottom: 50px;
 }
-.team-img img{
-    width: 100%;
+.team:hover{
+    box-shadow: 0 0 5px 0 red;
 }
-.team-text{
-    text-align: center;
-    }
-.team-main{
-        
-    box-shadow: 0 0px 7px 0px #17241f;
-     margin-bottom: 30px;
+.team-text-area{
+    padding: 20px 0;
 }
 
-.por1-main{
-    border: 2px solid #e4e3e3;
-    padding: 10px 10px;
+.blog-main{
+    border: 1px solid #cdcdcd;
 }
-.por2-main{
-    border: 2px solid #e4e3e3;
-    padding: 10px 10px;
+.blog-main:hover{
+    transform: scale(1.1);
 }
-.por3-main{
-    border: 2px solid #e4e3e3;
-    padding: 10px 10px;
+.blog-comments a{
+    color: #9e9e9e;
 }
-.por1-main h3{
-    margin-bottom: 25px;
-}
-.por2-main h3{
-    margin-bottom: 25px;
-}
-.por3-main h3{
-    margin-bottom: 25px;
-}
-.por1-img img{
-    margin-bottom: 25px;
-    width: 100%;
-    height: 100%;
-    
-}
-.por2-img img{
-    margin-bottom: 25px;
-    width: 100%;
-    height: 209px;
-}
-.por3-img img{
-    margin-bottom: 25px;
-    width: 100%;
-    height: 100%;
-}
-.por1-main p{
-    margin-bottom: 25px;
-}
-.por2-main p{
-    margin-bottom: 25px;
-}
-.por3-main p{
-    margin-bottom: 25px;
+.blog-read-more-area a{
+    color: red;
 }
 
-/*
-.imge{
-    width: 100%;
-}
-.imge2{
-    margin-left: 40px;
-}
-*/
 .sub-top{
     text-align: center;
     margin-bottom: 50px;
