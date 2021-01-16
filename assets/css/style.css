@@ -147,9 +147,9 @@ section{
 .team-text-area{
     padding: 20px 0;
 }
-
 .blog-main{
     border: 1px solid #cdcdcd;
+    margin-bottom: 30px;
 }
 .blog-main:hover{
     transform: scale(1.1);
@@ -159,6 +159,17 @@ section{
 }
 .blog-read-more-area a{
     color: red;
+}
+.blog-show-more a{
+    background-color: red;
+    color: white;
+}
+
+.blog-pagination a{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
 }
 
 .sub-top{
