@@ -296,11 +296,10 @@ textarea{
     color: #9e295a;
 }
    /*BLOG DETAIL*/
-   .blog-detail-data{
-       
-   }
 .blog-detail-last-button a{
     background-color: red;
     color: white;
-    
+}
+.popular-tag a{
+    background-color: rgb(216, 212, 212);
 }
