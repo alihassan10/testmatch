@@ -306,3 +306,7 @@ textarea{
 .detail-img img{
     width: 100%;
 }
+
+.details-social-icons a{
+    margin: 0 5px;
+}
