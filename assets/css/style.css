@@ -147,6 +147,10 @@ section{
 .team-text-area{
     padding: 20px 0;
 }
+
+.blog-top{
+    margin-bottom: 50px;
+}
 .blog-main{
     border: 1px solid #cdcdcd;
     margin-bottom: 30px;
