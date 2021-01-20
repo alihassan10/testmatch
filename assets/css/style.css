@@ -163,6 +163,8 @@ section{
 .blog-show-more a{
     background-color: red;
     color: white;
+    padding: 12px 20px;
+    text-decoration: none;
 }
 
 .blog-pagination a{
