@@ -115,8 +115,8 @@ section{
     width: 100%;
 }
 
-.video{
-    background-image: url('assets/images/butterfly-5770034_640.jpg');
+#video{
+    background-image: url('assets/images/yoga-5281457_640.jpg');
 }
 .video-top{
     text-align: center;
