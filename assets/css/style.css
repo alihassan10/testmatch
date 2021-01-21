@@ -109,6 +109,7 @@ section{
 .feature-text li{
     list-style: none;
 }
+
 .feature-text h1{
     color: #106eea;
 }
@@ -245,6 +246,7 @@ section{
     position: absolute;
     top: 0;
     right: 40px;
+    background-color: #106eea;
 }
 
 footer{
@@ -268,7 +270,7 @@ footer li{
 }
 .footer-img a{
     font-size: 17px;
-    color: #9e295a;
+    color:#106eea;
 }
 .footer-contact a{
     color: #106eea;
@@ -324,6 +326,7 @@ textarea{
     margin-top: 5px;
      */
     width: 50%;
+    background-color: #106eea;
 }
 /* .last-top{
     
@@ -347,12 +350,25 @@ textarea{
 .last-bottom a{
     padding: 0 15px;
     font-size: 20px;
-    color: #9e295a;
+    color:#106eea;
 }
 
+
+
+   /*Blog*/
+   .blog-grid{
+       color: #106eea;
+   }
+
+
+
+
    /*BLOG DETAIL*/
+.detail-heading h1{
+    color: #106eea;
+}
 .detail-last-button a{
-    background-color: red;
+    background-color: #106eea;
     color: white;
     padding: 12px 20px;
     text-decoration: none;
