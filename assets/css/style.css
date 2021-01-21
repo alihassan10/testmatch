@@ -194,6 +194,7 @@ section{
 }
 .agency-icon:hover{
     color: rgba(255, 166, 0, 0.884);
+    transition: 3s ease-in;
 }
 
 .sub-top{
