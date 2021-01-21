@@ -185,15 +185,22 @@ section{
 
 .agency-block{
     border: 1px solid #ececec;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
 }
 .agency-top{
     margin-bottom: 50px;
 }
 .agency-icon{
     font-size: 50px;
+    transition: .5s all ease;
+    -webkit-transition: .5s all ease;
 }
-.agency-icon:hover{
-    color: rgba(255, 166, 0, 0.884);
+.agency-block:hover{
+    box-shadow: 0 0 10px 0 #ababab;
+}
+.agency-block:hover .agency-icon{
+    color: red;
    
 }
 
