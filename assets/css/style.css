@@ -186,6 +186,15 @@ section{
 .agency-block{
     border: 1px solid #ececec;
 }
+.agency-top{
+    margin-bottom: 50px;
+}
+.agency-icon{
+    font-size: 50px;
+}
+.agency-icon:hover{
+    color: rgba(255, 166, 0, 0.884);
+}
 
 .sub-top{
     text-align: center;
