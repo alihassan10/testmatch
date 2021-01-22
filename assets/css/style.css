@@ -310,7 +310,7 @@ footer li{
 .contact-head{
     text-align: center;
     margin-bottom: 50px;
-    color: #106eea;
+    
 }
 .p-head{
     text-align: center;
@@ -362,16 +362,14 @@ textarea{
 
    /*Blog*/
    .blog-grid{
-       color: #106eea;
+       
    }
 
 
 
 
    /*BLOG DETAIL*/
-.detail-heading h1{
-    color: #106eea;
-}
+
 .detail-last-button a{
     background-color: #106eea;
     color: white;
