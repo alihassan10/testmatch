@@ -51,26 +51,30 @@ section{
 }
 
 .my-navbar{
-    background-color: red!important;
+    background-color: white!important;
 }
 .navbar{
-    background-color: red;
+    background-color: white;
+    padding: 15px 0;
+    box-shadow: 0 0 5px 0 black;
 }
 .nav-link{
-    color: white !important;
+    color: black !important;
 }
 .navbar-brand{
-    color: white !important;
+    color: black !important;
 }
 .navbar-nav a:hover{
     color: black;
 }
 #intro{
-    background-color: #A4978E;
+    background-color: #7c8ec9;
 }
 .intro-top{
     text-align: center;
     margin-bottom: 50px;
+}
+.intro-top span{
     color: #106eea;
 }
 .intro-img img{
@@ -83,7 +87,6 @@ section{
 .services-top{
     text-align: center;
     margin-bottom: 30px;
-    color: #106eea;
 }
 .services-head{
     text-align: center;
@@ -116,7 +119,6 @@ section{
 .feature-top{
     text-align: center;
     margin-bottom: 50px;
-    color: #106eea;
 }
 .feature-img img{
     width: 100%;
@@ -132,7 +134,6 @@ section{
 .video-top{
     text-align: center;
     margin-bottom: 50px;
-    color: #106eea;
 }
 .video-img img{
    width: 100%;
@@ -155,7 +156,6 @@ section{
 }
 .team-top{
     margin-bottom: 50px;
-    color: #106eea;
 }
 .team:hover .team-text-area{
    background-color: black;
