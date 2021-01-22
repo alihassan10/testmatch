@@ -172,7 +172,6 @@ section{
 
 .blog-top{
     margin-bottom: 50px;
-    color: #106eea;
 }
 .blog-main{
     border: 1px solid #cdcdcd;
@@ -211,7 +210,6 @@ section{
 }
 .agency-top{
     margin-bottom: 50px;
-    color: #106eea;
 }
 .agency-icon{
     font-size: 50px;
@@ -250,7 +248,7 @@ section{
 }
 
 footer{
-    background-color: #A4978E;
+    background-color: #555453;
     padding-top: 50px;
     padding-bottom:30px ;
 }
@@ -267,23 +265,23 @@ footer{
 
 footer li{
     list-style: none;  
-    color: #106eea;
+    color: black;
 }
 .footer-img a{
     font-size: 17px;
-    color:#106eea;
+    
 }
 .footer-contact a{
-    color: #106eea;
+    color: black;
 }
 .footer-contact{
-    color: #106eea;
+    color: black;
 }
 .footer-phone a{
-    color: #106eea;
+    color: black;
 }
 .footer-phone{
-    color: #106eea;
+    color: black;
 }
 @media only screen and (max-width:767px){
     
