@@ -267,6 +267,7 @@ footer{
 
 footer li{
     list-style: none;  
+    color: #106eea;
 }
 .footer-img a{
     font-size: 17px;
@@ -275,7 +276,13 @@ footer li{
 .footer-contact a{
     color: #106eea;
 }
+.footer-contact{
+    color: #106eea;
+}
 .footer-phone a{
+    color: #106eea;
+}
+.footer-phone{
     color: #106eea;
 }
 @media only screen and (max-width:767px){
