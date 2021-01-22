@@ -24,8 +24,8 @@ a:hover{
     transition: 1s all ease;
 }
 .all-btn:hover{
-    background-color: orange;
-    color: white;
+    background-color: transparent;
+    color: blue;
     border-color: red;
 
 }
