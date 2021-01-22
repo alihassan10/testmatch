@@ -16,14 +16,14 @@ h1, h2, h3, h4, h5, h6{
 a:hover{
     text-decoration: none;
 }
-.ali{
+.all-btn{
     background-color: green;
     color: white;
     padding: 12px 20px;
     border: 1px solid green;
     transition: 1s all ease;
 }
-.ali:hover{
+.all-btn:hover{
     background-color: orange;
     color: white;
     border-color: red;
