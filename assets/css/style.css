@@ -20,7 +20,7 @@ a:hover{
     background-color: #106eea;
     color: white;
     padding: 12px 20px;
-    /* border: 1px solid green; */
+    border: 1px solid #106eea;
     transition: 1s all ease;
 }
 .all-btn:hover{
@@ -255,7 +255,7 @@ section{
     position: absolute;
     top: 0;
     right: 40px;
-    padding: 6px 0;
+    padding: 6px 10px;
 }
 
 footer{
