@@ -24,10 +24,8 @@ a:hover{
     transition: 1s all ease;
 }
 .all-btn:hover{
-    /* background-color: transparent; */
     color: white;
-    background-color: lightblue;
-    /* border-color: red; */
+    background-color: #3b8af2;
 
 }
 /* navbar da container change kro navbar brand dy utty laao k mtlb */
@@ -259,7 +257,7 @@ section{
 }
 
 footer{
-    background-color: white;
+    background-color: #e4e4e4;
     padding-top: 50px;
     padding-bottom:30px ;
 }
