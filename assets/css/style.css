@@ -172,7 +172,7 @@ section{
     margin-bottom: 50px;
 }
 .team:hover .team-text-area{
-   background-color: black;
+   background-color: #106eea;
    color: white;
     
 }
@@ -180,10 +180,6 @@ section{
     padding: 20px 0;
     transition: .5s all ease;
 }
-.team-text-area h3{
-    color: #106eea;
-}
-
 .blog-top{
     margin-bottom: 50px;
 }
@@ -340,8 +336,6 @@ textarea{
     margin-top: 5px;
      */
     width: 50%;
-    background-color: #106eea;
-    color: white;
 }
 /* .last-top{
     
