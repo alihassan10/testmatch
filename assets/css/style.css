@@ -364,22 +364,11 @@ textarea{
 
 
 
-   /*Blog*/
-   .blog-grid{
-       
-   }
-
 
 
 
    /*BLOG DETAIL*/
 
-.detail-last-button a{
-    background-color: #106eea;
-    color: white;
-    padding: 12px 20px;
-    text-decoration: none;
-}
 .popular-tag a{
     background-color: rgb(216, 212, 212);
 }
