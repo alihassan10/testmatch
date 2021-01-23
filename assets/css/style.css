@@ -17,16 +17,17 @@ a:hover{
     text-decoration: none;
 }
 .all-btn{
-    background-color: green;
+    background-color: #106eea;
     color: white;
     padding: 12px 20px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     transition: 1s all ease;
 }
 .all-btn:hover{
-    background-color: transparent;
-    color: blue;
-    border-color: red;
+    /* background-color: transparent; */
+    color: white;
+    background-color: lightblue;
+    /* border-color: red; */
 
 }
 /* navbar da container change kro navbar brand dy utty laao k mtlb */
