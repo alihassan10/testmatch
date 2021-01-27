@@ -3,7 +3,7 @@ $('#main-carousel').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
-    autoplayTimeout:1500,
+    autoplayTimeout:2500,
     responsive:{
         0:{
             items:1
@@ -13,6 +13,25 @@ $('#main-carousel').owlCarousel({
         },
         1000:{
             items:1
+        }
+    }
+})
+
+$('#main-testnomial').owlCarousel({
+    loop:true,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:1550,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
         }
     }
 })
