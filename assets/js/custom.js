@@ -41,7 +41,7 @@ $('#main-client').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
-    autoplayTimeout:2500,
+    autoplayTimeout:1500,
     responsive:{
         0:{
             items:1
@@ -50,7 +50,7 @@ $('#main-client').owlCarousel({
             items:2
         },
         1000:{
-            items:3
+            items:5
         }
     }
 })

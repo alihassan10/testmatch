@@ -214,6 +214,9 @@ section{
     font-size: 50px;
     font-weight: bold;
 }
+#client{
+    padding: 30px 0 20px 0;
+}
 .blog-top{
     margin-bottom: 50px;
 }
