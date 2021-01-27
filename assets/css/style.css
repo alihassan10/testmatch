@@ -95,7 +95,7 @@ section{
     width: 100%;
 }
 
-#services{
+/* #services{
     padding-bottom: 70px;
 }
 .services-top{
@@ -105,7 +105,7 @@ section{
 .services-head{
     text-align: center;
     margin-bottom: 50px;
-}
+} */
 
 .html-text h1{
     text-align: center;
@@ -190,6 +190,29 @@ section{
 }
 .testimonial-box h4{
     font-size: 22px;
+}
+/* .testimonial-box .media-body ay aala kam bihtreen kita j ma dasn lga c tusi laa dita
+    ku k media-body asi aur jaga ty v use kita hona ty ay sab ty kamm py jana c
+    main class da reference dy k kamm krna achi approach ay is kam ch GOOD ja r.y .oo.... han g ok wy kro kamm thora jya margin top paa dyo 4px taak allignment ho jai 
+
+    naaly inj da kam pehly inscpect ch kr lwi da exact postion set kr k bas odon waikh k likhd dita
+*/
+.testimonial-box .media-body{            
+    margin-left: -45px;
+    margin-top: 4px;
+}
+
+#stat-banner{
+    background-color: #106eea;
+    
+}
+.stat-heading{
+    color: white;
+    padding: 0 90px;
+}
+.stat-heading h1{
+    font-size: 50px;
+    font-weight: bold;
 }
 .blog-top{
     margin-bottom: 50px;
