@@ -22,7 +22,7 @@ $('#main-testnomial').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
-    autoplayTimeout:1550,
+    autoplayTimeout:155000,
     responsive:{
         0:{
             items:1
