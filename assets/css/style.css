@@ -180,11 +180,16 @@ section{
     padding: 20px 0;
     transition: .5s all ease;
 }
-#testinomial{
-    background-color: green;
+
+#testimonial{
+    background-color: #106eea;
 }
-.main-testnomial{
-    background-color: green;
+.testimonial-box{
+    border: 1px solid gray;
+    background-color: white;
+}
+.testimonial-box h4{
+    font-size: 22px;
 }
 .blog-top{
     margin-bottom: 50px;
