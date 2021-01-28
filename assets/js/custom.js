@@ -3,7 +3,7 @@ $('#main-carousel').owlCarousel({
     nav:false,
     dots:false,
     autoplay:true,
-    autoplayTimeout:2500,
+    autoplayTimeout:3500,
     responsive:{
         0:{
             items:1

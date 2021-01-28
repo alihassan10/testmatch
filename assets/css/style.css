@@ -83,6 +83,7 @@ section{
 }
 #intro{
     background-color: #7c8ec9;
+    color: white;
 }
 .intro-top{
     text-align: center;
@@ -222,6 +223,9 @@ section{
 .testimonial-box h4{
     font-size: 22px;
 }
+.testimonial-heading{
+    color: white;
+}
 /* .testimonial-box .media-body ay aala kam bihtreen kita j ma dasn lga c tusi laa dita
     ku k media-body asi aur jaga ty v use kita hona ty ay sab ty kamm py jana c
     main class da reference dy k kamm krna achi approach ay is kam ch GOOD ja r.y .oo.... han g ok wy kro kamm thora jya margin top paa dyo 4px taak allignment ho jai 
@@ -260,6 +264,14 @@ section{
 }
 .project-img:hover{
     transform: scale(1.02);
+}
+.project-heading{
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    background-color: #106eea;
+    margin-left: 10px;
+    border-bottom: green;
 }
 
 #client{
