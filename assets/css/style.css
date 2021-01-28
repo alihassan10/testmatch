@@ -248,6 +248,9 @@ section{
     font-size: 50px;
     font-weight: bold;
 }
+.service-top{
+    margin-bottom: 50px;
+}
 
 .service-icon{
     font-size: 50px;
