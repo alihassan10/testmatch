@@ -236,6 +236,12 @@ section{
     font-size: 50px;
     font-weight: bold;
 }
+
+.service-icon{
+    font-size: 50px;
+    color: #106eea;
+}
+
 .project-img{
     opacity: 1;
     transition: 0.5s all ease;
