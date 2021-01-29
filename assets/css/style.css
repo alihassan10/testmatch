@@ -95,11 +95,14 @@ section{
 .intro-img img{
     width: 100%;
 }
-
+#experties-agency{
+    margin-bottom: 72px;
+}
 .agency-block{
     border: 1px solid #ececec;
     transition: .5s all ease;
     -webkit-transition: .5s all ease;
+    margin-bottom: 28px;
 }
 .agency-top{
     margin-bottom: 50px;
@@ -257,11 +260,15 @@ section{
     font-size: 50px;
     color: #106eea;  
 }
+#service{
+    margin-bottom: 72px;
+}
 .service-box{
     border: 1px solid rgb(231, 230, 230);
     background-color: white;
+    margin-bottom: 28px;
 }
-.project{
+#project{
     margin-bottom: 70px;
 }
 .project-box{
