@@ -239,10 +239,11 @@ section{
 
 #stat-banner{
     background-color: #106eea;
-    
+    padding-bottom: 50px;
 }
 .stat-heading{
     color: white;
+    margin-bottom: 50px;
 }
 .stat-heading h1{
     font-size: 50px;
@@ -260,10 +261,16 @@ section{
     border: 1px solid rgb(231, 230, 230);
     background-color: white;
 }
-
+.project{
+    margin-bottom: 70px;
+}
+.project-box{
+    margin-bottom: 30px;
+}
 .project-img{
     opacity: 1;
     transition: 0.5s all ease;
+    margin-bottom: 10px;
 }
 .project-img:hover{
     transform: scale(1.02);
@@ -273,8 +280,7 @@ section{
     bottom: 40px;
     color: white;
     background-color: #106eea;
-    margin-left: 10px;
-    border-bottom: green;
+    padding: 2px 12px 8px 8px;
 }
 
 #client{
