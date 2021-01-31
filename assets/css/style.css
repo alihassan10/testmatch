@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6{
 a:hover{
     text-decoration: none;
 }
+
 .all-btn{
     background-color: #106eea;
     color: white;
@@ -64,6 +65,7 @@ section{
     padding: 100px 0;
 }
 
+/* --------------Navbar----------------- */
 .my-navbar{
     background-color: white!important;
 }
@@ -79,8 +81,23 @@ section{
     color: black !important;
 }
 .navbar-nav a:hover{
-    color: black;
+    color: black; 
 }
+.main-banner-txt{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    background-color: rgba(29, 27, 27, 0.562);
+    width: 40%;
+    padding: 15px 10px 30px 10px;
+}
+
+
+/* ===========================================
+   ================  About Us  ===============  
+   ===========================================  */
+
 #intro{
     background-color: #7c8ec9;
     color: white;
@@ -195,7 +212,6 @@ section{
 .video-icon a{
     color: white;
 }
-
 
 .request-box .form-control{
     margin-bottom: 20px;
