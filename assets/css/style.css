@@ -29,6 +29,19 @@ a:hover{
     background-color: #3b8af2;
 
 }
+.html-text h1{
+    text-align: center;
+    }
+    .css-text h1{
+        text-align: center;
+    }
+    .java-text h1{
+        text-align: center;
+    }
+    .boot-text h1{
+        text-align: center;
+    }
+
 /* navbar da container change kro navbar brand dy utty laao k mtlb */
 /*
 .first img{
@@ -94,24 +107,13 @@ section{
 }
 
 
+
+
 /* ===========================================
-   ================  About Us  ===============  
+   ================  Experties  ===============  
    ===========================================  */
 
-#intro{
-    background-color: #7c8ec9;
-    color: white;
-}
-.intro-top{
-    text-align: center;
-    margin-bottom: 50px;
-}
-.intro-top span{
-    color: #106eea;
-}
-.intro-img img{
-    width: 100%;
-}
+
 #experties-agency{
     margin-bottom: 72px;
 }
@@ -138,59 +140,127 @@ section{
    
 }
 
-.html-text h1{
-    text-align: center;
-    }
-    .css-text h1{
-        text-align: center;
-    }
-    .java-text h1{
-        text-align: center;
-    }
-    .boot-text h1{
-        text-align: center;
-    }
 
-#features{
-    list-style: none;
-}
-.feature-text li{
-    list-style: none;
-}
+ /* ===========================================
+   ================  About Us  ===============  
+   ===========================================  */
 
-.feature-text h1{
-    color: #106eea;
+#intro{
+    background-color: #7c8ec9;
+    color: white;
 }
-.feature-top{
+.intro-top{
     text-align: center;
     margin-bottom: 50px;
 }
-.feature-img img{
+.intro-top span{
+    color: #106eea;
+}
+.intro-img img{
     width: 100%;
 }
 
-/* #video{
-    background-image: url(../images/portrait-5065016_1920.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-}
-.video-top{
-    text-align: center;
+/* ===========================================
+   ================  Services  ===============  
+   ===========================================  */
+.service-top{
     margin-bottom: 50px;
 }
-.video-img img{
-   width: 100%;
-}
-.video-img a{
-    color: white;
+
+.service-icon{
     font-size: 50px;
+    color: #106eea;  
+}
+#service{
+    margin-bottom: 72px;
+}
+.service-box{
+    border: 1px solid rgb(231, 230, 230);
+    background-color: white;
+    margin-bottom: 28px;
+}
+
+/* ===========================================
+   ================  State Banner ================  
+   ===========================================  */
+
+#stat-banner{
+    background-color: #106eea;
+    padding-bottom: 50px;
+}
+.stat-heading{
+    color: white;
+    margin-bottom: 50px;
+}
+.stat-heading h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* ===========================================
+   ================  Project  ================  
+   ===========================================  */
+
+#project{
+    margin-bottom: 70px;
+}
+.project-box{
+    margin-bottom: 30px;
+}
+.project-img{
+    opacity: 1;
+    transition: 0.5s all ease;
+    margin-bottom: 10px;
+}
+.project-img:hover{
+    transform: scale(1.02);
+}
+.project-heading{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
+    bottom: 40px;
+    color: white;
+    background-color: #106eea;
+    padding: 2px 12px 8px 8px;
+}
+
+/* ===========================================
+   ================Request A Quote================  
+   ===========================================  */
+.request-box .form-control{
+    margin-bottom: 20px;
+    height: 50px;
+}
+.request-img img{
+    width: 100%;
+}
+
+/* ===========================================
+   ================  Team  ================  
+   ===========================================  */
+#our-team{
+    padding-bottom: 70px;
+}
+.team{
+    border: 1px solid #cdcdcd;
+    margin-bottom: 30px;
+}
+.team-top{
+    margin-bottom: 50px;
+}
+.team:hover .team-text-area{
+   background-color: #106eea;
+   color: white;
+    
+}
+.team-text-area{
+    padding: 20px 0;
+    transition: .5s all ease;
+}
+
+
+/* ===========================================
+   ================  Video  ================  
+   ===========================================  */
 #video{
     background-image: url(../images/videobackground.jpg);
     background-size: cover;
@@ -213,33 +283,10 @@ section{
     color: white;
 }
 
-.request-box .form-control{
-    margin-bottom: 20px;
-    height: 50px;
-}
-.request-img img{
-    width: 100%;
-}
-#our-team{
-    padding-bottom: 70px;
-}
-.team{
-    border: 1px solid #cdcdcd;
-    margin-bottom: 30px;
-}
-.team-top{
-    margin-bottom: 50px;
-}
-.team:hover .team-text-area{
-   background-color: #106eea;
-   color: white;
-    
-}
-.team-text-area{
-    padding: 20px 0;
-    transition: .5s all ease;
-}
 
+/* ===========================================
+   ================ Testimonial ================  
+   ===========================================  */
 #testimonial{
     background-color: #106eea;
 }
@@ -264,59 +311,10 @@ section{
     margin-top: 4px;
 }
 
-#stat-banner{
-    background-color: #106eea;
-    padding-bottom: 50px;
-}
-.stat-heading{
-    color: white;
-    margin-bottom: 50px;
-}
-.stat-heading h1{
-    font-size: 50px;
-    font-weight: bold;
-}
-.service-top{
-    margin-bottom: 50px;
-}
+/* ===========================================
+   ================ Blog ================  
+   ===========================================  */
 
-.service-icon{
-    font-size: 50px;
-    color: #106eea;  
-}
-#service{
-    margin-bottom: 72px;
-}
-.service-box{
-    border: 1px solid rgb(231, 230, 230);
-    background-color: white;
-    margin-bottom: 28px;
-}
-#project{
-    margin-bottom: 70px;
-}
-.project-box{
-    margin-bottom: 30px;
-}
-.project-img{
-    opacity: 1;
-    transition: 0.5s all ease;
-    margin-bottom: 10px;
-}
-.project-img:hover{
-    transform: scale(1.02);
-}
-.project-heading{
-    position: absolute;
-    bottom: 40px;
-    color: white;
-    background-color: #106eea;
-    padding: 2px 12px 8px 8px;
-}
-
-#client{
-    padding: 30px 0 20px 0;
-}
 .blog-top{
     margin-bottom: 50px;
 }
@@ -344,8 +342,39 @@ section{
     font-size: 20px;
     color: black;
 }
+/* ===========================================
+   ================ Client Carousel ================  
+   ===========================================  */
+
+   #client{
+    padding: 30px 0 20px 0;
+}
+
+/* ===========================================
+   ================ Feature ================  
+   ===========================================  */
+#features{
+    list-style: none;
+}
+.feature-text li{
+    list-style: none;
+}
+
+.feature-text h1{
+    color: #106eea;
+}
+.feature-top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feature-img img{
+    width: 100%;
+}
 
 
+/* ===========================================
+   ================ Subscribe ================  
+   ===========================================  */
 
 .sub-top{
     text-align: center;
@@ -369,6 +398,49 @@ section{
     padding: 6px 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact1-icon{
+    color: rgb(250, 124, 21);
+    background-color: rgb(214, 196, 163);
+}
+.contact1-head h1{
+    font-weight: 700;
+}
+.contact1-btn a{
+    color: white;
+    background-color: rgb(250, 124, 21);
+    padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================================
+   ================ Footer ================  
+   ===========================================  */
 footer{
     background-color: #e4e4e4;
     padding-top: 50px;
@@ -427,7 +499,9 @@ footer li{
 }
 
 
-/*Contact*/
+/* ===========================================
+   ================ Contact ================  
+   ===========================================  */
 
 .contact-head{
     text-align: center;
@@ -484,7 +558,9 @@ textarea{
 
 
 
-   /*BLOG DETAIL*/
+   /* ===========================================
+   ================ Blog Detail ================  
+   ===========================================  */
 
 .popular-tag a{
     background-color: rgb(216, 212, 212);
