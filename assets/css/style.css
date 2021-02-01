@@ -73,7 +73,6 @@ a:hover{
 } */
 
 
-
 section{
     padding: 100px 0;
 }
@@ -101,10 +100,12 @@ section{
 }
 .main-banner-txt{
     position: absolute;
-    top: 25%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     color: white;
     background-color: rgba(29, 27, 27, 0.562);
+    
     width: 40%;
     padding: 15px 10px 60px 10px;
 }
@@ -117,6 +118,19 @@ section{
 .nav-btn{
     margin-left: 5px;
     margin-top: 0;
+}
+.header-top{
+    background-color: black;
+    padding: 10px 0;   
+}
+.header-top-icon a{
+    color: #106eea;
+}
+.header-top-information a{
+    color: #fff;
+}
+.header-top-information .icon-color{
+    color: #106eea;
 }
 
 
@@ -494,6 +508,9 @@ footer li{
 .footer-phone{
     color: black;
 }
+/* ===========================================
+   ================ Media query ================  
+   ===========================================  */
 @media only screen and (max-width:767px){
     
 .footer-main{
@@ -514,7 +531,11 @@ footer li{
          top: 42%;
      }
 }
-
+@media only screen and (max-width:643px){
+    .main-banner-txt{
+        width: 100%;
+    }
+    }
 
 /* ===========================================
    ================ Contact ================  
