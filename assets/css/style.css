@@ -106,8 +106,8 @@ section{
     color: white;
     background-color: rgba(29, 27, 27, 0.562);
     
-    width: 40%;
-    padding: 15px 10px 60px 10px;
+    width: 45%;
+    padding: 15px 10px 45px 10px;
 }
 .navbar-item .all-btn{
     color: white!important;
@@ -124,7 +124,7 @@ section{
     padding: 10px 0;   
 }
 .header-top-icon a{
-    color: #106eea;
+    color: #fff;
 }
 .header-top-information a{
     color: #fff;
@@ -227,27 +227,7 @@ section{
    ================  Project  ================  
    ===========================================  */
 
-#project{
-    margin-bottom: 70px;
-}
-.project-box{
-    margin-bottom: 30px;
-}
-.project-img{
-    opacity: 1;
-    transition: 0.5s all ease;
-    margin-bottom: 10px;
-}
-.project-img:hover{
-    transform: scale(1.02);
-}
-.project-heading{
-    position: absolute;
-    bottom: 40px;
-    color: white;
-    background-color: #106eea;
-    padding: 2px 12px 8px 8px;
-}
+
 
 /* ===========================================
    ================Request A Quote================  
