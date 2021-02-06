@@ -254,6 +254,8 @@ section{
 .team{
     border: 1px solid #cdcdcd;
     margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 .team-top{
     margin-bottom: 50px;
@@ -268,15 +270,20 @@ section{
     transition: .5s all ease;
 }
 .team-icon{
-    width: 90%;
+    width: 100%;
     position: absolute;
-    top: -100%;
+    top: -100px;
     left: 0;
-    background-color: rgb(24, 219, 187);
-    padding: 0 60px;
+    background-color: #106eea;
+    text-align: center;
+    transition: 0.7s all ease-out;
 }
 .team-icon a{
     color: #f1f1f1;
+}
+.team:hover .team-icon{
+    position: absolute;
+    top: 0;
 }
 
 
