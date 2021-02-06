@@ -274,6 +274,7 @@ section{
     transition: .7s all ease;
 }
 .team-icon{
+    padding: 8px 0;
     width: 100%;
     position: absolute;
     top: -100px;
@@ -284,7 +285,11 @@ section{
 }
 .team-icon a{
     color: #f1f1f1;
-    padding: 0 5px;
+    padding: 10px;
+}
+.team-icon a:hover{
+    color: #106eea;
+    background-color: #fff;
 }
 .team:hover .team-icon{
     top: 0;
