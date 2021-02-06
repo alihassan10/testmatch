@@ -267,6 +267,17 @@ section{
     padding: 20px 0;
     transition: .5s all ease;
 }
+.team-icon{
+    width: 90%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background-color: rgb(24, 219, 187);
+    padding: 0 60px;
+}
+.team-icon a{
+    color: #f1f1f1;
+}
 
 
 /* ===========================================
