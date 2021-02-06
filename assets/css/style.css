@@ -281,9 +281,11 @@ section{
     background-color: #106eea;
     text-align: center;
     transition: 1.5s all ease;
+    padding: 0 20px;
 }
 .team-icon a{
     color: #f1f1f1;
+    padding: 0 5px;
 }
 .team:hover .team-icon{
     top: 0;
