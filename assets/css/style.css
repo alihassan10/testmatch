@@ -271,7 +271,7 @@ section{
     bottom: -100px;
     left: 0;
     right: 0;
-    transition: .2s all ease; pehly naam samny aawy fir icons aawan acha
+    transition: .7s all ease;
 }
 .team-icon{
     width: 100%;
@@ -280,7 +280,7 @@ section{
     left: 0;
     background-color: #106eea;
     text-align: center;
-    transition: 0.7s all ease-out;
+    transition: 1.5s all ease;
 }
 .team-icon a{
     color: #f1f1f1;
